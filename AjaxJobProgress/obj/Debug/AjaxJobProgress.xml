@@ -1,0 +1,180 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AjaxJobProgress
+</name>
+</assembly>
+<members>
+<member name="F:AjaxJobProgress.StartTask.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:AjaxJobProgress.Tasks.StartSleepTask">
+	<summary>
+ Starts an example task that just calls thread.sleep to simulate a long task
+ Returns a guid that can be used to get the task status as it progresses
+ </summary>
+</member><member name="M:AjaxJobProgress.Tasks.GetTaskStatus(System.Guid)">
+	<summary>
+ Get the current task status for the task with matching guid
+ </summary>
+</member><member name="M:AjaxJobProgress.LongRunningTaskMonitor.Monitor(AjaxJobProgress.LongRunningTask)">
+	<summary>
+ Create unique task id and subscribe to task events.
+ </summary>
+	<param name="task"></param>
+	<returns>Task ID</returns>
+	<remarks></remarks>
+</member><member name="M:AjaxJobProgress.LongRunningTask.DoWork(System.Object)">
+	<summary>
+ Implement task here.  Can be called async with DoWorkAsync.
+ </summary>
+	<param name="args">Pass data to new thread.  Must cast it.</param>
+	<remarks>Call ReportProgress as task progresses.  Call ReportCompleted at end.</remarks>
+</member><member name="M:AjaxJobProgress.LongRunningTask.DoWorkAsync(System.Object)">
+	<summary>
+ Invoke DoWork on a new thread.
+ </summary>
+	<param name="args"></param>
+	<remarks></remarks>
+</member><member name="M:AjaxJobProgress.LongRunningTask.ReportProgress(AjaxJobProgress.LongRunningTaskStatus)">
+	<summary>
+ Raise ProgressChanged event.
+ </summary>
+	<param name="status"></param>
+	<remarks></remarks>
+</member><member name="M:AjaxJobProgress.LongRunningTask.ReportCompleted(AjaxJobProgress.LongRunningTaskStatus)">
+	<summary>
+ Raise TaskCompleted event.
+ </summary>
+	<param name="status"></param>
+	<remarks></remarks>
+</member><member name="F:AjaxJobProgress.ChangePassword.ChangeUserPassword">
+	<summary>
+ChangeUserPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:AjaxJobProgress.My.MyWebExtension.Application">
+	<summary>
+ Returns information about the current application.
+ </summary>
+</member><member name="P:AjaxJobProgress.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:AjaxJobProgress.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:AjaxJobProgress.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:AjaxJobProgress.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:AjaxJobProgress.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="P:AjaxJobProgress.My.MyWebExtension.WebServices">
+	<summary>
+ Provides access to WebServices added to this project.
+ </summary>
+</member><member name="T:AjaxJobProgress.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:AjaxJobProgress.Login.RegisterHyperLink">
+	<summary>
+RegisterHyperLink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AjaxJobProgress.Login.LoginUser">
+	<summary>
+LoginUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AjaxJobProgress.Site.HeadContent">
+	<summary>
+HeadContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AjaxJobProgress.Site.MasterPageScriptManager">
+	<summary>
+MasterPageScriptManager control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AjaxJobProgress.Site.HeadLoginView">
+	<summary>
+HeadLoginView control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AjaxJobProgress.Site.HeadHomeLink">
+	<summary>
+HeadHomeLink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AjaxJobProgress.Site.HeadAboutLink">
+	<summary>
+HeadAboutLink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AjaxJobProgress.Site.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AjaxJobProgress.Register.RegisterUser">
+	<summary>
+RegisterUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:AjaxJobProgress.Register.RegisterUserWizardStep">
+	<summary>
+RegisterUserWizardStep control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

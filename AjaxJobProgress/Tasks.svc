@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="VB" Debug="true" Service="AjaxJobProgress.Tasks" CodeBehind="Tasks.svc.vb" %>

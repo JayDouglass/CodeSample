@@ -1,0 +1,10 @@
+c:\users\jay\documents\visual studio 2010\Projects\CodeSample\AjaxJobProgress\bin\AjaxJobProgress.dll
+c:\users\jay\documents\visual studio 2010\Projects\CodeSample\AjaxJobProgress\bin\AjaxJobProgress.pdb
+c:\users\jay\documents\visual studio 2010\Projects\CodeSample\AjaxJobProgress\bin\AjaxJobProgress.xml
+c:\users\jay\documents\visual studio 2010\Projects\CodeSample\AjaxJobProgress\obj\Debug\ResolveAssemblyReference.cache
+c:\users\jay\documents\visual studio 2010\Projects\CodeSample\AjaxJobProgress\obj\Debug\AjaxJobProgress.Resources.resources
+c:\users\jay\documents\visual studio 2010\Projects\CodeSample\AjaxJobProgress\obj\Debug\GenerateResource.read.1.tlog
+c:\users\jay\documents\visual studio 2010\Projects\CodeSample\AjaxJobProgress\obj\Debug\GenerateResource.write.1.tlog
+c:\users\jay\documents\visual studio 2010\Projects\CodeSample\AjaxJobProgress\obj\Debug\AjaxJobProgress.dll
+c:\users\jay\documents\visual studio 2010\Projects\CodeSample\AjaxJobProgress\obj\Debug\AjaxJobProgress.xml
+c:\users\jay\documents\visual studio 2010\Projects\CodeSample\AjaxJobProgress\obj\Debug\AjaxJobProgress.pdb
